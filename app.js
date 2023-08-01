@@ -9,7 +9,7 @@ import {
   ButtonStyleTypes,
 } from 'discord-interactions';
 // App imports
-import { VerifyDiscordRequest, DiscordRequest } from './utils';
+import { VerifyDiscordRequest, DiscordRequest } from './utils.js';
 
 // Create an express app
 const app = express();

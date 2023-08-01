@@ -1,7 +1,7 @@
 // Package imports
 import 'dotenv/config';
 // App imports
-import { InstallGlobalCommands } from './utils';
+import { InstallGlobalCommands } from './utils.js';
 
 // Simple test command
 const TEST_COMMAND = {
