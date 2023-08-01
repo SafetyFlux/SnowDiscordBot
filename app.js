@@ -32,8 +32,8 @@ app.post('/interactions', async function (req, res) {
   if (type === InteractionType.APPLICATION_COMMAND) {
     const { name } = data;
 
-    // Test command, sends "Hello World"
-    if (name === 'test') {
+    // YouTube command
+    if (name === 'youtube') {
       return res.send({
         type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
         data: {
