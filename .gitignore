@@ -1,5 +1,6 @@
 # Miscellaneous
 *.code-workspace
+config.json
 
 # Logs
 logs
